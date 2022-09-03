@@ -1,0 +1,27 @@
+{
+    "name": "zneaker",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "pxt-robotcar": "github:veilkrand/pxt-robotcar#v0.0.14",
+        "MakerBit-IR-Receiver": "github:1010technologies/pxt-makerbit-ir-receiver#v1.5.14",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
